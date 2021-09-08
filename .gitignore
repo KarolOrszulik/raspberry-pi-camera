@@ -1,5 +1,11 @@
 /output
 
+/__pycache__
+
+.pyc
+
+.swp
+
 .jpg
 .png
 .mp4

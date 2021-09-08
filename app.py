@@ -2,12 +2,12 @@ import picamera
 
 import globals
 import camserver
-import shutter
+import hardware_input
 
 globals.init()
 
 
-shutter.init()
+hardware_input.init()
 
 globals.camera = picamera.PiCamera(resolution='480x320', framerate=24)
 
